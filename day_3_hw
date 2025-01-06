@@ -1,0 +1,72 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "fd89aa77-cfbe-40fe-b6df-72587bc1a042",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter marks for Subject 1:  80\n",
+      "Enter marks for Subject 2:  90\n",
+      "Enter marks for Subject 3:  79\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Grade: (Fail)\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = float(input(\"Enter marks for Subject 1: \"))\n",
+    "b = float(input(\"Enter marks for Subject 2: \"))\n",
+    "c = float(input(\"Enter marks for Subject 3: \"))\n",
+    "avg = (a + b + c) / 3\n",
+    "if avg >= 90:\n",
+    "    result = \"A\"\n",
+    "elif 80 <= avg < 90:\n",
+    "    result = \"B\"\n",
+    "elif 60 <= avg < 70:\n",
+    "    result = \"C\"\n",
+    "else:\n",
+    "    result = \"Fail\"\n",
+    "print(f\"Grade: (Fail)\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "394e3874-6723-4983-b266-d96365ee1bdc",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
